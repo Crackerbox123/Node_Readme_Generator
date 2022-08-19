@@ -8,37 +8,37 @@ const questions = [
         {
             // Name of project
             type: 'input',
-            name: 'Title',
+            name: 'title',
             message: 'What is the title of your project? (required)'
         },
         {
-            // Name of autho
+            // Description
             type: 'input',
-            name: 'authorName',
-            message: 'What is your name? (required)'
+            name: 'description',
+            message: 'Descripte your project (required)'
         },
         {
             // installation input
             type: 'input',
-            name: 'Installation',
+            name: 'installation',
             message: 'How do you install your project? (required)'
         },
         {
             // usage input
             type: 'input',
-            name: 'Usage',
+            name: 'usage',
             message: 'What usage is your project intended for?'
         },
         {
             // credits input
             type: 'input',
-            name: 'Credits',
+            name: 'credits',
             message: 'List colloborators and third party assests'
         },
         {
             // license select
             type: 'checkbox',
-            name: 'License',
+            name: 'license',
             message: 'Licensing',
             choices: ['MPL 2.0', 'GNU', 'Apache', 'MIT', 'None'],
         },  
