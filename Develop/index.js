@@ -40,7 +40,7 @@ const questions = [
             type: 'checkbox',
             name: 'license',
             message: 'Licensing',
-            choices: ['MPL 2.0', 'GNU', 'Apache', 'MIT', 'None'],
+            choices: ["MIT", "GPLv3", "IBM", "Apache", "None"],
         },  
     ];
 

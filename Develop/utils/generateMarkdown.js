@@ -6,7 +6,7 @@ function renderLicenseBadge(data) {
   if(licenseSection === 'MIT') {
     yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)`
   } else if (licenseSection === 'GPLv3') {
-    yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    yourLicense = `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
   } else if (licenseSection === 'IBM') {
     yourLicense = `![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)`
   } else if(licenseSection === 'Apache') {
@@ -50,7 +50,7 @@ function renderLicenseSection(data) {
   } else if(licenseSection === 'IBM') {
     yourSection = `<a href = "https://www.ibm.com/docs/en/spectrum-archive-ee/1.3.0.0?topic=reference-licensing-readme" </a>`
 
-  }else if(licenseSection === 'Apache') {
+  } else if(licenseSection === 'Apache') {
     yourSection = `<a href = "https://github.com/Medium/opensource/blob/master/apache-license-2.0.md">Apache Guide</a>`
 
   } else {
