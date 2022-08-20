@@ -4,7 +4,7 @@ function renderLicenseBadge(data) {
   let licenseSection = data.license[0];
   let yourLicense = ''
   if(licenseSection === 'MIT') {
-    yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
+    yourLicense = `![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)`
   } else if (licenseSection === 'GPLv3') {
     yourLicense = `![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)`
   } else if (licenseSection === 'IBM') {
@@ -16,10 +16,6 @@ function renderLicenseBadge(data) {
   }
   return yourLicense;
 };
-
-
-
-
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -78,8 +74,11 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage:
   ${data.usage}
-  ## License:
-  ${data.license}
+  ## Licenses:
+1. Your Badge: ${renderLicenseBadge(data)}
+2. Your Badge link: ${renderLicenseLink(data)}
+3. Your Badge Readme: ${renderLicenseSection(data)}
+
   ## Credits:
   ${data.credits}
   
