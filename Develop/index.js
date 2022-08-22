@@ -15,7 +15,7 @@ const questions = [
             // Description
             type: 'input',
             name: 'description',
-            message: 'Descripte your project (required)'
+            message: 'Describe your project (required)'
         },
         {
             // installation input
@@ -35,6 +35,12 @@ const questions = [
             name: 'credits',
             message: 'List colloborators and third party assests'
         },
+            // Test input
+        {
+            type: 'input', 
+            name: 'test',
+            message: 'Explain how to test your application'            
+        },
         {
             // license select
             type: 'checkbox',
@@ -42,9 +48,17 @@ const questions = [
             message: 'Licensing',
             choices: ["MIT", "GPLv3", "IBM", "Apache", "None"],
         },  
+        {
+            type: 'input', 
+            name: 'questions',
+            message: 'Enter your Github web address'            
+        },   
+        {
+            type: 'input', 
+            name: 'questions2',
+            message: 'Enter your email address'            
+        },
     ];
-
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {

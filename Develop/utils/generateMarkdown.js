@@ -91,6 +91,10 @@ function generateMarkdown(data) {
 
   ## Credits:
   ${data.credits}
+
+  ## Questions:
+  1. Github link: <a href = "https://github.com/${data.questions}">My Github Site</a>
+  2. Email: ${data.questions3} 
   
 
 `;
