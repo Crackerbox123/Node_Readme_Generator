@@ -89,6 +89,9 @@ function generateMarkdown(data) {
 2. Your Badge link: ${renderLicenseLink(data)}
 3. Your Badge Readme: ${renderLicenseSection(data)}
 
+  ## Testing:
+  ${data.test}
+
   ## Credits:
   ${data.credits}
 
