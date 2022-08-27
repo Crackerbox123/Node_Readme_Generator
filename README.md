@@ -1,8 +1,8 @@
 
   ## Title
-  Readme Generator
+  README generator</br>
   ## Badge:
-   ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+   ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)</br>
 
    ## Table of Contents:
   1. [Description](#description)
@@ -13,23 +13,24 @@
   6. [Features](#features)
   7. [Contirbute](#contribute)
   8. [Test](#test)
-  9. [Questions](#questions)
+  9. [Questions](#questions)</br>
   ## Description:
-  A CLI that generates professional readmes
+  A CLI application that generates templated README files</br>
   ## Installation:
-  install node.js + inquirer@8.2.4
+  Install Node.js + Inquirere@8.2.4 using npm</br>
   ## Usage:
-  Using input captured from a user, generate a markdown file with template literals to fill in sections
+  To provide a professional readme template to use for professional projects</br>
   ## Licenses:
-1. Your Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-2. Your Badge link: <a href = "https://opensource.org/licenses/MIT">License Link</a>
-3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a>
+1. Your Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)</br>
+2. Your Badge link: <a href = "https://opensource.org/licenses/MIT">License Link</a></br>
+3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a></br>
+
+  ## Testing:
+  using Node.js in an IDE, run through the prompts to confirm app functionality.</br>
 
   ## Credits:
-  n/a
+  n/a</br>
 
-  ## Questions:
-  1. Github link: <a href = "https://github.com/https://github.com/Crackerbox123">My Github Site</a>
-  2. Email: undefined 
-  
-
+  ## For Questions, contact info is below:
+  1. Github link: <a href = "https://github.com/https://github.com/Crackerbox123">My Github Site</a></br>
+  2. Email: undefined </br>

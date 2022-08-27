@@ -97,7 +97,7 @@ function generateMarkdown(data) {
 
   ## For Questions, contact info is below:
   1. Github link: <a href = "https://github.com/${data.questions}">My Github Site</a></br>
-  2. Email: ${data.questions3} </br>
+  2. Email: ${data.questions2} </br>
 `;
 }
 
