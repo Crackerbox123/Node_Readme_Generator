@@ -64,9 +64,9 @@ function generateMarkdown(data) {
   
   return `
   ## Title
-  ${data.title}
+  ${data.title}</br>
   ## Badge:
-   ${renderLicenseBadge(data)}
+   ${renderLicenseBadge(data)}</br>
 
    ## Table of Contents:
   1. [Description](#description)
@@ -77,29 +77,27 @@ function generateMarkdown(data) {
   6. [Features](#features)
   7. [Contirbute](#contribute)
   8. [Test](#test)
-  9. [Questions](#questions)
+  9. [Questions](#questions)</br>
   ## Description:
-  ${data.description}
+  ${data.description}</br>
   ## Installation:
-  ${data.installation}
+  ${data.installation}</br>
   ## Usage:
-  ${data.usage}
+  ${data.usage}</br>
   ## Licenses:
-1. Your Badge: ${renderLicenseBadge(data)}
-2. Your Badge link: ${renderLicenseLink(data)}
-3. Your Badge Readme: ${renderLicenseSection(data)}
+1. Your Badge: ${renderLicenseBadge(data)}</br>
+2. Your Badge link: ${renderLicenseLink(data)}</br>
+3. Your Badge Readme: ${renderLicenseSection(data)}</br>
 
   ## Testing:
-  ${data.test}
+  ${data.test}</br>
 
   ## Credits:
-  ${data.credits}
+  ${data.credits}</br>
 
-  ## Questions:
-  1. Github link: <a href = "https://github.com/${data.questions}">My Github Site</a>
-  2. Email: ${data.questions3} 
-  
-
+  ## For Questions, contact info is below:
+  1. Github link: <a href = "https://github.com/${data.questions}">My Github Site</a></br>
+  2. Email: ${data.questions3} </br>
 `;
 }
 
