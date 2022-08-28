@@ -10,9 +10,8 @@
   3. [Usage](#usage)
   4. [Credits](#credits)
   5. [License](#license)
-  6. [Features](#features)
-  7. [Contirbute](#contribute)
-  8. [Test](#test)
+  7. [Contributions](#contribute)
+  8. [Testing](#test)
   9. [Questions](#questions)</br>
   ## Description:
   A CLI application that generates templated README files</br>
@@ -26,11 +25,11 @@
 3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a></br>
 
   ## Testing:
-  using Node.js in an IDE, run through the prompts to confirm app </br>
+  </br>
 
   ## Credits:
   n/a</br>
 
   ## For Questions, contact info is below:
-  1. Github link: <a href = "https://github.com/Crackerbox213">My Github Site</a></br>
-  2. Email: Koestreicher@gmail.com </br>
+  1. Github link: <a href = "https://github.com/crackerbox213">My Github Site</a></br>
+  2. Email: koestreicher4@gmail.com </br>

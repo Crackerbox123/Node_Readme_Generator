@@ -59,15 +59,18 @@ const questions = [
             message: 'Enter your email address'            
         },
     ];
+
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
             return console.log(err);
         }
-        console.log('write success');
     });
 };
+
+
 
 // TODO: Create a function to initialize app
 function init() {
