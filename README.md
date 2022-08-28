@@ -17,20 +17,20 @@
   ## Description:
   A CLI application that generates templated README files</br>
   ## Installation:
-  Install Node.js + Inquirere@8.2.4 using npm</br>
+  Install Node.js + Inquirer@8.2.4 USING NPM</br>
   ## Usage:
-  To provide a professional readme template to use for professional projects</br>
+  tO PROVIDE A PROFESSIONAL README TEMPLATE TO USE FOR PROFESSIONAL projects</br>
   ## Licenses:
 1. Your Badge: ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)</br>
 2. Your Badge link: <a href = "https://opensource.org/licenses/MIT">License Link</a></br>
 3. Your Badge Readme: <a href = "https://gist.github.com/ckib16/8732561535ed766cd6b8">MIT Guide</a></br>
 
   ## Testing:
-  using Node.js in an IDE, run through the prompts to confirm app functionality.</br>
+  using Node.js in an IDE, run through the prompts to confirm app </br>
 
   ## Credits:
   n/a</br>
 
   ## For Questions, contact info is below:
-  1. Github link: <a href = "https://github.com/https://github.com/Crackerbox123">My Github Site</a></br>
-  2. Email: undefined </br>
+  1. Github link: <a href = "https://github.com/Crackerbox213">My Github Site</a></br>
+  2. Email: Koestreicher@gmail.com </br>
