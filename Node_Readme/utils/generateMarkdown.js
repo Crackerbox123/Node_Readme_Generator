@@ -74,9 +74,8 @@ function generateMarkdown(data) {
   3. [Usage](#usage)
   4. [Credits](#credits)
   5. [License](#license)
-  6. [Features](#features)
-  7. [Contirbute](#contribute)
-  8. [Test](#test)
+  7. [Contributions](#contribute)
+  8. [Testing](#test)
   9. [Questions](#questions)</br>
   ## Description:
   ${data.description}</br>
